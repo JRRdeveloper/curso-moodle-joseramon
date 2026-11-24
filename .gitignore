@@ -1,0 +1,21 @@
+# Configuración real con credenciales y claves de base de datos
+config.php
+**/config.php
+.env
+
+# Directorio de datos y archivos binarios de Moodle
+moodledata/
+moodledata-dev/
+
+# Volcados de base de datos y copias de seguridad
+*.sql
+*.sql.gz
+*.dump
+*.bak
+
+# Archivos temporales del sistema operativo y editores
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+.idea/
