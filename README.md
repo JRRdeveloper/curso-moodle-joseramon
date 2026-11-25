@@ -67,7 +67,7 @@ sudo service cron stop
 
 ---
 
-## 5. Del local al servidor (Guión de despliegue)
+## 4. Del local al servidor (Guión de despliegue)
 
 Protocolo ordenado para llevar los cambios de un plugin o cambio desde el entorno de desarrollo local hasta el servidor de pruebas sin comprometer la integridad de la plataforma:
 
@@ -116,7 +116,7 @@ Protocolo ordenado para llevar los cambios de un plugin o cambio desde el entorn
 - **Archivos propios del IDE o del sistema operativo (`.vscode/`, `.idea/`, `.DS_Store`, `Thumbs.db`):** Ensucian los *diffs* con configuraciones personales de cada desarrollador.
 - **Scripts sueltos de depuración o pruebas rápidas:** Cualquier script temporal en la raíz debe borrarse antes de hacer commit.
 
-## 4. Estructura del Repositorio
+## 5. Estructura del Repositorio
 
 - `README.md`: Documentación de arquitectura, instalación y operación del entorno.
 - `.gitignore`: Exclusión de credenciales reales (`config.php`), volcados `.sql` y directorios `moodledata`.
